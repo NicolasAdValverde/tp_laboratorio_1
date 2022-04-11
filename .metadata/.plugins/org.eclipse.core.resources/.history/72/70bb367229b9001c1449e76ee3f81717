@@ -1,0 +1,143 @@
+/*
+ ============================================================================
+ Name        : TP_[1].c
+ Author      : Valverde Nicolas
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "divisas.h"
+#include "funciones_aritmeticas.h"
+#include "divisas.h"
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int opcion;
+	int kilometros;
+	int precioAerolineas;
+	int precioLatam;
+	int precioUnitarioLatam;
+	int precioUnitarioAerolineas;
+	int precioDebitoAerolineas;
+	int precioDebitoLatam;
+	int precioCreditoAerolineas;
+	int precioCreditoLatam;
+	float precioBitcoinAerolineas;
+	float precioBitcoinLatam;
+	int diferenciaDePrecios;
+
+	kilometros = 0;
+	precioAerolineas = 0;
+	precioLatam = 0;
+
+	do
+	{
+		printf("\n 1. Ingresar kilometros:  \n 2. Ingresar precio de vuelos:  \n 3. Calcular todos los costos:  \n 4. Informar resultados.  \n 5. Carga forzada de datos.  \n 6. Salir.");
+		scanf("%d", &opcion);
+
+		switch(opcion)
+		{
+			case 1:
+				printf("\nIngrese los kilometros: ");
+				scanf("%d", &kilometros);
+				printf("\nDatos cargados correctamente.")
+
+				break;
+
+			case 2:
+				printf("\nIngrese el precio de Aerolineas: ");
+				scanf("%d", &precioAerolineas);
+				printf("\nIngrese el precio de Latam: ");
+				scanf("%d", &precioLatam);
+				printf("\nPrecios cargados correctamente.")
+
+				break;
+
+			case 3:
+
+				if(kilometros == 0 || precioAerolineas == 0 || precioLatam == 0)
+				{
+					printf("\nFaltan ingresar datos para calcular.\n");
+				}
+				else
+				{
+					//Tarjeta de debito
+					precioDebitoAerolineas = descuento(precioAerolineas, 10);
+					precioDebitoLatam = descuento(precioLatam, 10);
+
+					//Tarjeta de credito
+					precioCreditoAerolineas = aumento(precioAerolineas, 25);
+					precioCreditoLatam = aumento(precioLatam, 25);
+
+					//Bitcoin
+					precioBitcoinAerolineas = dividir(precioUnitarioAerolineas = multiplicar(kilometros, precioAerolineas), bitcoin());
+					precioBitcoinLatam = dividir(precioUnitarioLatam = multiplicar(kilometros, precioLatam), bitcoin());
+
+					//Precio unitario
+					precioUnitarioAerolineas = dividir(precioAerolineas, kilometros);
+					precioUnitarioLatam = dividir(precioLatam, kilometros);
+
+					//Diferencia de precio ingresada
+					diferenciaDePrecios = restar(precioAerolineas, precioLatam);
+				}
+
+				break;
+
+			case 4:
+
+				if(kilometros == 0 || precioAerolineas == 0 || precioLatam == 0)
+				{
+					printf("\nNo hay datos que mostrar.\n");
+				}
+				else
+				{
+				printf("\nKMs Ingresados: %d km\n\n", kilometros );
+				printf("Precio Aerolineas: $%d\n", precioAerolineas);
+				printf("Precio con tarjeta de debito: $%d\n", precioDebitoAerolineas);
+				printf("Precio con tarjeta de credito: $%d\n", precioCreditoAerolineas);
+				printf("Precio pagando con bitcoin: %f BTC\n", precioBitcoinAerolineas);
+				printf("Precio unitario por km: $%d\n\n", precioUnitarioAerolineas);
+				printf("Precio Latam: $%d\n", precioLatam);
+				printf("Precio con tarjeta de debito: $%d\n", precioDebitoLatam);
+				printf("Precio con tarjeta de credito: $%d\n", precioCreditoLatam);
+				printf("Precio pagando con bitcoin: %f BTC\n", precioBitcoinLatam);
+				printf("Precio unitario por km: $%d\n\n", precioUnitarioLatam);
+				printf("La diferencia de precios es: $d", diferenciaDePrecios);
+				}
+
+				break;
+
+			case 5:
+
+				kilometros = 7090;
+				precioAerolineas = 162965;
+				precioLatam = 159339;
+
+				printf("\n\n Se cargaron datos para calular forzadamente.\n\n");
+
+				break;
+
+			case 6:
+
+				printf("\nSaliste del programa");
+
+				break;
+
+			default:
+				printf("\nOpcion no valida.");
+
+				break;
+		}
+
+	}while(opcion != 6);
+
+
+
+	return EXIT_SUCCESS;
+}
+

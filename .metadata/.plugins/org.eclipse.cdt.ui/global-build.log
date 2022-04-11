@@ -1,0 +1,630 @@
+23:46:39 **** Rebuild of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\divisas.o" "..\\src\\divisas.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+23:47:21 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+In file included from ..\src\TP_[1].c:13:0:
+..\src\divisas.h:19:8: warning: "/*" within comment [-Wcomment]
+ #endif /* DIVISAS_H_ */
+         
+..\src\divisas.h:8:0: error: unterminated #ifndef
+ #ifndef DIVISAS_H_
+ 
+In file included from ..\src\TP_[1].c:14:0:
+..\src\funciones_aritmeticas.h:8:0: error: unterminated #ifndef
+ #ifndef FUNCIONESARITMETICAS_H_
+ 
+In file included from ..\src\TP_[1].c:15:0:
+..\src\divisas.h:19:8: warning: "/*" within comment [-Wcomment]
+ #endif /* DIVISAS_H_ */
+         
+..\src\divisas.h:8:0: error: unterminated #ifndef
+ #ifndef DIVISAS_H_
+ 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:28:3: error: expected ';' before 'scanf'
+   scanf("%d", &opcion);
+   ^~~~~
+..\src\TP_[1].c:33:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese los kilometros: ", "El kilometraje debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:39:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Aerolineas: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:41:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Latam: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+23:48:02 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+In file included from ..\src\TP_[1].c:13:0:
+..\src\divisas.h:19:8: warning: "/*" within comment [-Wcomment]
+ #endif /* DIVISAS_H_ */
+         
+..\src\divisas.h:8:0: error: unterminated #ifndef
+ #ifndef DIVISAS_H_
+ 
+In file included from ..\src\TP_[1].c:14:0:
+..\src\funciones_aritmeticas.h:8:0: error: unterminated #ifndef
+ #ifndef FUNCIONESARITMETICAS_H_
+ 
+In file included from ..\src\TP_[1].c:15:0:
+..\src\divisas.h:19:8: warning: "/*" within comment [-Wcomment]
+ #endif /* DIVISAS_H_ */
+         
+..\src\divisas.h:8:0: error: unterminated #ifndef
+ #ifndef DIVISAS_H_
+ 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:33:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese los kilometros: ", "El kilometraje debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:39:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Aerolineas: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:41:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Latam: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+23:51:24 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+In file included from ..\src\TP_[1].c:13:0:
+..\src\divisas.h:19:8: warning: "/*" within comment [-Wcomment]
+ #endif /* DIVISAS_H_ */
+         
+..\src\divisas.h:8:0: error: unterminated #ifndef
+ #ifndef DIVISAS_H_
+ 
+In file included from ..\src\TP_[1].c:14:0:
+..\src\funciones_aritmeticas.h:8:0: error: unterminated #ifndef
+ #ifndef FUNCIONESARITMETICAS_H_
+ 
+In file included from ..\src\TP_[1].c:15:0:
+..\src\divisas.h:19:8: warning: "/*" within comment [-Wcomment]
+ #endif /* DIVISAS_H_ */
+         
+..\src\divisas.h:8:0: error: unterminated #ifndef
+ #ifndef DIVISAS_H_
+ 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:33:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese los kilometros: ", "El kilometraje debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:39:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Aerolineas: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:41:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Latam: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+23:55:45 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:33:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese los kilometros: ", "El kilometraje debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:39:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Aerolineas: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:41:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Latam: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" "src\\test.o" 
+23:56:40 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+23:58:14 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:33:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese los kilometros: ", "El kilometraje debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:39:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Aerolineas: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:41:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Latam: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+23:59:47 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:33:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese los kilometros: ", "El kilometraje debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:39:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Aerolineas: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\TP_[1].c:41:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf(enteroPositivo("Ingrese el precio de Latam: ", "El precio debe ser mayor a 0."));
+            ^~~~~~~~~~~~~~
+In file included from ..\src\TP_[1].c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+00:04:46 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:33:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("Ingrese los kilometros");
+     ^~~~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+src\TP_[1].o: In function `main':
+C:\Users\nav_2\Desktop\tp_laboratorio_1\TP_[1]\Debug/../src/TP_[1].c:33: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+00:05:27 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:33:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("Ingrese los kilometros: ");
+     ^~~~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+src\TP_[1].o: In function `main':
+C:\Users\nav_2\Desktop\tp_laboratorio_1\TP_[1]\Debug/../src/TP_[1].c:33: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+00:06:04 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+00:06:27 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+00:07:10 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:07:28 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+00:08:51 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+01:27:22 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:27:6: error: redeclaration of 'precioFinalLatam' with no linkage
+  int precioFinalLatam;
+      ^~~~~~~~~~~~~~~~
+..\src\TP_[1].c:26:6: note: previous declaration of 'precioFinalLatam' was here
+  int precioFinalLatam;
+      ^~~~~~~~~~~~~~~~
+..\src\TP_[1].c:92:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("La diferencia de precios es: $d", diferenciaDePrecios);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\TP_[1].c:27:6: warning: unused variable 'precioFinalLatam' [-Wunused-variable]
+  int precioFinalLatam;
+      ^~~~~~~~~~~~~~~~
+01:28:40 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:90:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("La diferencia de precios es: $d", diferenciaDePrecios);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+01:30:00 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+01:38:31 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+01:40:57 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:41:37 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+01:42:48 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:42:52 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+01:43:46 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+02:31:19 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:31:46 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+02:33:17 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:33:19 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+14:35:54 **** Rebuild of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\divisas.o" "..\\src\\divisas.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+14:40:38 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+16:09:49 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+16:15:03 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:15:20 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+16:20:20 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:20:23 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+16:33:56 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:33:57 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+16:36:08 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:36:09 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+16:36:34 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:36:36 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+20:51:54 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:50:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:59:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:32:6: warning: variable 'diferenciaDePrecios' set but not used [-Wunused-but-set-variable]
+  int diferenciaDePrecios;
+      ^~~~~~~~~~~~~~~~~~~
+20:51:55 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:50:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:59:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:32:6: warning: variable 'diferenciaDePrecios' set but not used [-Wunused-but-set-variable]
+  int diferenciaDePrecios;
+      ^~~~~~~~~~~~~~~~~~~
+20:52:52 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:50:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:59:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:110:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("La diferencia de precios es: $d", diferenciaDePrecios);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:52:55 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:50:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:59:5: error: expected ';' before 'break'
+     break;
+     ^~~~~
+..\src\TP_[1].c:110:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("La diferencia de precios es: $d", diferenciaDePrecios);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:53:42 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c: In function 'main':
+..\src\TP_[1].c:110:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("La diferencia de precios es: $d", diferenciaDePrecios);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+21:01:02 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:01:12 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+21:02:46 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+21:03:29 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:03:33 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+21:36:57 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+21:38:23 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:38:31 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+Info: Nothing to build for TP_[1]
+21:40:56 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:40:58 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+21:41:51 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:41:54 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+21:42:49 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:42:51 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+22:01:35 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:01:41 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+22:26:45 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:26:48 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+22:29:00 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:29:03 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+22:47:14 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+..\src\funciones_aritmeticas.c: In function 'enteroPositivo':
+..\src\funciones_aritmeticas.c:92:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d", &numero);
+         ^~~
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:47:25 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 

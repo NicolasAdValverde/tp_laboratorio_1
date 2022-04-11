@@ -1,0 +1,66 @@
+/*
+ ============================================================================
+ Name        : TP_[1].c
+ Author      : Valverde Nicolas
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "divisas.h"
+#include "funciones_aritmeticas.h"
+#include "divisas.h"
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int opcion;
+	int kilometros;
+	int precioAerolineas;
+	int precioLatam;
+
+	do
+	{
+		printf("\n 1. Ingresar kilometros:  \n 2. Ingresar precio de vuelos:  \n 3. Calcular todos los costos:  \n 4. Informar resultados.  \n 5. Carga forzada de datos.  \n  6. Salir.")
+		scanf("%d", &opcion);
+
+		switch(opcion)
+		{
+			case 1:
+				printf(enteroPositivo("Ingrese los kilometros: ", "El kilometraje debe ser mayor a 0."));
+				scanf("%d", &kilometros);
+
+				break;
+
+			case 2:
+				printf(enteroPositivo("Ingrese el precio de Aerolineas: ", "El precio debe ser mayor a 0."));
+				scanf("%d", &precioAerolineas);
+				printf(enteroPositivo("Ingrese el precio de Latam: ", "El precio debe ser mayor a 0."));
+				scanf("%d", &precioLatam);
+
+				break;
+
+			case 3:
+
+
+
+			case 4:
+
+			case 5:
+
+			case 6:
+
+			default:
+				printf("Opcion no valida.");
+		}
+
+	}while(opcion != 6);
+
+
+
+	return EXIT_SUCCESS;
+}
+
