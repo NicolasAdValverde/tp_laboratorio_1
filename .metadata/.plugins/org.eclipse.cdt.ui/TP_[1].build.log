@@ -1,6 +1,1 @@
-22:47:25 **** Incremental Build of configuration Debug for project TP_[1] ****
-Info: Internal Builder is used for build
-gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
-
-22:47:26 Build Finished. 0 errors, 0 warnings. (took 552ms)
-
+Info: Nothing to build for TP_[1]

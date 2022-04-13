@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "funciones_aritmeticas.h"
+#include "funcionesAritmeticas.h"
 #include "datos_y_validaciones.h"
 
 int main(void) {

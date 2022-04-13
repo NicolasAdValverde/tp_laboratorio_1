@@ -628,3 +628,57 @@ collect2.exe: error: ld returned 1 exit status
 22:47:25 **** Incremental Build of configuration Debug for project TP_[1] ****
 Info: Internal Builder is used for build
 gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+08:23:50 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+08:24:50 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_[1].exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:25:06 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\divisas.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]
+11:18:15 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\datos_y_validaciones.o" "..\\src\\datos_y_validaciones.c" 
+..\src\datos_y_validaciones.c: In function 'informarResultados':
+..\src\datos_y_validaciones.c:17:35: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("Precio con tarjeta de cr%cdito: $%.2f\n", creditoAA, 130);
+                                   ^
+..\src\datos_y_validaciones.c:17:46: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("Precio con tarjeta de cr%cdito: $%.2f\n", creditoAA, 130);
+                                              ^
+..\src\datos_y_validaciones.c:18:34: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("Precio pagando con bitc%cin: %f BTC\n", btcAA, 162);
+                                  ^
+..\src\datos_y_validaciones.c:18:40: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("Precio pagando con bitc%cin: %f BTC\n", btcAA, 162);
+                                        ^
+..\src\datos_y_validaciones.c:22:35: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("Precio con tarjeta de cr%cdito: $%.2f\n", creditoLatam, 130);
+                                   ^
+..\src\datos_y_validaciones.c:22:46: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("Precio con tarjeta de cr%cdito: $%.2f\n", creditoLatam, 130);
+                                              ^
+..\src\datos_y_validaciones.c:23:34: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("Precio pagando con bitc%cin: %f BTC\n", btcLatam, 162);
+                                  ^
+..\src\datos_y_validaciones.c:23:40: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("Precio pagando con bitc%cin: %f BTC\n", btcLatam, 162);
+                                        ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones_aritmeticas.o" "..\\src\\funciones_aritmeticas.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+..\src\TP_[1].c:3:34: fatal error: funcionesAritmeticas.h: No such file or directory
+ #include "funcionesAritmeticas.h"
+                                  ^
+compilation terminated.
+11:18:35 **** Incremental Build of configuration Debug for project TP_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_[1].o" "..\\src\\TP_[1].c" 
+gcc -o TP_[1].exe "src\\TP_[1].o" "src\\datos_y_validaciones.o" "src\\funciones_aritmeticas.o" 
+Info: Nothing to build for TP_[1]

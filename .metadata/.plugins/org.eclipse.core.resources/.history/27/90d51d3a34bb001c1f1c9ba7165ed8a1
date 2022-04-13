@@ -8,7 +8,7 @@
 #ifndef FUNCIONES_ARITMETICAS_H_
 #define FUNCIONES_ARITMETICAS_H_
 
-int descuento(int importe, int valorADescontar);
+float descuento(int  importe, int  valorADescontar);
 
 /*
 @brief Calcula el descuento de un importe.
@@ -17,7 +17,7 @@ int descuento(int importe, int valorADescontar);
 @return Retorna el valor con descuento.
 */
 
-float aumento(int importe, int valorAAumentar);
+float aumento(int  importe, int  valorAAumentar);
 
 /*
 @brief Calcula el aumento de un importe.
@@ -26,7 +26,7 @@ float aumento(int importe, int valorAAumentar);
 @return Retorna el valor con aumento.
 */
 
-float sumar(float numero1, float numero2);
+int  sumar(int  numero1, int  numero2);
 /*
 @brief Calcula la suma de dos numeros.
 @param A Recibe el primer operando.
@@ -34,7 +34,7 @@ float sumar(float numero1, float numero2);
 @return Retorna el valor de la suma de ambos operandos.
 */
 
-float restar(float numero1, float numero2);
+int  restar(int  numero1, int  numero2);
 
 /*
 @brief Calcula la resta de dos numeros positivos.
@@ -54,7 +54,6 @@ int multiplicar(int numero1, int numero2);
 
 
 float dividir(int dividendo, int divisor);
-
 /*
 @brief Calcula la division de dos numeros.
 @param A Recibe el primer operando.
@@ -62,15 +61,13 @@ float dividir(int dividendo, int divisor);
 @return Retorna el valor de la division de ambos operandos.
 */
 
-void cargaForzada(int km, int precioAA, int precioLat, float bitcoin);
 
+int enteroPositivo(char mensaje[], char error[]);
 /*
-@brief Reemplaza valores por defecto, calcula los costos e informa los resultados.
-@param A Recibe los km.
-@param B Recibe el precio de Aerolineas Argentinas.
-@param B Recibe el precio de Latam.
-@param B Recibe el precio del Bitcoin.
-@return Retorna Los calculos echos e informa los mismos.
+@brief Funcion que devuelve un entero y valida que sea positivo.
+@param A Recibe el mensaje para pedir el numero.
+@param B Recibe el mensaje de error en caso de que sea negativo.
+@return Retorna el valor validado.
 */
 
 #endif /* FUNCIONES_ARITMETICAS_H_ */
